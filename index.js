@@ -1,6 +1,6 @@
 'use strict';
 
-fs = require('fs');
+var fs = require('fs');
 var path = require('path');
 
 exports.get = function(event, context, callback) {
